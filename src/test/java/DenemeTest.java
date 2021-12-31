@@ -32,6 +32,8 @@ public class DenemeTest {
 
 
 
+
+
     @org.junit.Test
         public void getResponse(){
         response = given().accept(ContentType.JSON).auth().oauth2("b529970a2c6a408c4d86903d20f1bff0b682e74df198f6a720c986b67175b24e").when().get(endPoint);
